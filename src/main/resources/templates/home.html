@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="#{home.title}">Insert title here</title>
+</head>
+<body>
+<div>
+    <a data-th-href="@{/locale(lang=zh_CN)}" th:text="#{home.language.chinese}">中文</a>
+    <a data-th-href="@{/locale(lang=en_US)}" th:text="#{home.language.english}">英语</a>
+</div>
+    <h1 data-th-text="#{home.welcome}">Fluid jumbotron</h1>
+</body>
+</html>
