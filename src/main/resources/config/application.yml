@@ -8,4 +8,4 @@ spring:
     content-type: text/html
     mode: HTML5
   messages:
-    basename: home
+    basename: messages
